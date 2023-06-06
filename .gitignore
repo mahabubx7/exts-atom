@@ -1,0 +1,19 @@
+# nodejs core
+node_modules
+
+# logs
+*-error.log
+*.log
+
+# build / production / output
+dist
+build
+
+# tools
+.vscode/*
+!.vscode/settings.json
+
+# OS & others
+.DS_Store
+.exe
+.ini
