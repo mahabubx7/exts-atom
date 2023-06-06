@@ -9,7 +9,15 @@ node_modules
 dist
 build
 
-# tools
+# tools & extras
+.env
+.env.local
+.env.development
+.env.staging
+.env.production
+.env.prod
+!.env.sample
+!.env.example
 .vscode/*
 !.vscode/settings.json
 
