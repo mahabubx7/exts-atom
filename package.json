@@ -11,7 +11,7 @@
     "start": "node src/server.js",
     "lint": "eslint . --ext ts,js",
     "lint:fix": "eslint . --ext ts,js --fix",
-    "format": "prettier . -w"
+    "format": "prettier --ignore-path .lock --write \"**/*.+(js|ts|json|md)\""
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
