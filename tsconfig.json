@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["ES5", "ES6", "ESNext"],
+    "target": "ES2020",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"]
+}
